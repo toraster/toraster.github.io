@@ -47,45 +47,6 @@ header h1 {
     text-decoration: underline;
 }
 
-/* Navigation */
-.legal-nav {
-    background: #fff;
-    padding: 30px;
-    border-radius: 8px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-}
-
-.legal-nav h2 {
-    font-size: 1.3rem;
-    color: #2c3e50;
-    margin-bottom: 20px;
-    padding-bottom: 10px;
-    border-bottom: 2px solid #3498db;
-}
-
-.legal-nav ul {
-    list-style: none;
-}
-
-.legal-nav li {
-    margin-bottom: 10px;
-}
-
-.legal-nav a {
-    display: block;
-    padding: 15px 20px;
-    background: #f5f5f5;
-    border-radius: 6px;
-    color: #333;
-    text-decoration: none;
-    transition: all 0.2s ease;
-}
-
-.legal-nav a:hover {
-    background: #3498db;
-    color: #fff;
-}
-
 /* Legal Content */
 .legal-content {
     background: #fff;
@@ -177,6 +138,77 @@ footer {
     font-size: 0.9rem;
 }
 
+/* Support Page - Section */
+.section {
+    margin-bottom: 30px;
+}
+
+.section h2 {
+    font-size: 1.3rem;
+    color: #2c3e50;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #3498db;
+}
+
+/* Support Page - FAQ */
+.faq-item {
+    margin-bottom: 20px;
+}
+
+.faq-item h3 {
+    color: #333;
+    font-size: 1.1rem;
+    margin-bottom: 8px;
+}
+
+.faq-item p {
+    color: #666;
+    padding-left: 15px;
+}
+
+/* Support Page - Contact */
+.contact-info {
+    background: #f5f5f5;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+
+.contact-info .btn {
+    color: white;
+}
+
+/* Button */
+.btn {
+    display: inline-block;
+    background: #3498db;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 6px;
+    text-decoration: none;
+    margin-top: 15px;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background: #2980b9;
+    text-decoration: none;
+}
+
+/* Support Page - Text Helpers */
+.subtitle-text {
+    color: #666;
+    font-size: 1rem;
+    margin-top: 5px;
+}
+
+.note-text {
+    margin-top: 15px;
+    color: #888;
+    font-size: 0.9rem;
+}
+
 /* Responsive */
 @media (max-width: 600px) {
     .container {
@@ -191,7 +223,6 @@ footer {
         font-size: 1.6rem;
     }
 
-    .legal-nav,
     .legal-content {
         padding: 20px;
     }
